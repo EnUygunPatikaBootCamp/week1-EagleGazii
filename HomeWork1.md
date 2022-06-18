@@ -9,7 +9,7 @@
     - **Ne amaçlı kullanılır ?**
         - Kullanma amacı ise hızlı ve kolay yürütmek,
         - Açık (temiz) bir yapı olması sağlar,
-        - Kod yazarken kendini tekrarlamamak için önleniyor DRY - "Don't try yourself" böylelikle kodu daha kolay okursun, değiştirisin veya hata bulursun (debug),
+        - Kod yazarken kendini tekrarlamamak için önleniyor DRY - "Don't repeat yourself" böylelikle kodu daha kolay okursun, değiştirisin veya hata bulursun (debug),
         - Daha az kod ve daha kısa geliştirme süresi ile tam yeniden kullanılabilir uygulamalar oluşturmak mümkün.
 
 - **Soru 2: Polymorphism ne amaçlı kullanılır ?**
