@@ -12,4 +12,5 @@ Bir e-ticaret projesinde, sisteme giriş yapacak farklı kullanıcı türleri me
 
 <img src="https://github.com/EnUygunPatikaBootCamp/week1-EagleGazii/blob/main/UML%20Class%20Diagram%20-%20PHP%20Enuygun%20(18.06.2022).drawio.png?raw=true"/>
 
-- Tüm kullanıcıların 
+- Tüm kullanıcıların burda tckn numarasi ve ad, soyad, eposta ayni olduğu için abstract bir sınıf oluşturarak her sınıfta aynı verileri tekrar yazmak "OOP'nin bir özelliklerinden kendini tekrarlamya önlenir-don't repeat yourself", sonuçta bu yapıda müşteri, satıcı veya yönetici her biri bir kullanıcı olduğuna göre User abstract sınıfı oluşturabiliriz ve önce saydığım sınıflar User sınıfından miras alarak kendi sınıfın içerisinde bu değişkenler bulunur.
+- Müşterilerin (Client), Satıcıların (Merchant) kendi öznitellikler olarak bu ikisi id'leri unique olmalı, ve Satıcıların (Merchant) içinde ek olarak bir metodu olup satıcının telefon numarası geçerli olup olmadığını belirlenir. Yönetici (Admin) öznitelliğin olarak id'si var.  
